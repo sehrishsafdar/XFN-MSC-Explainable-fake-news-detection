@@ -43,12 +43,10 @@ likes, shares, user profiles, and sentiments, rendering it exceptionally appropr
 multilingual and context-aware modeling..
 
 ---
- ##Notebook Workflow
 
+## Notebook Workflow
 The main notebook: XFN-MSC.ipynb
-
 ## Setup & Imports
-
 Installs dependencies and imports required Python libraries.
 
 ## Data Loading
