@@ -43,6 +43,66 @@ likes, shares, user profiles, and sentiments, rendering it exceptionally appropr
 multilingual and context-aware modeling..
 
 ---
+##📑 Notebook Workflow
+
+The main notebook: XFN-MSC.ipynb
+
+## Setup & Imports
+
+Installs dependencies and imports required Python libraries.
+
+## Data Loading
+
+Loads datasets from provided paths (AMUSED, SemEval, RumorEval).
+
+Consolidates into a unified DataFrame.
+
+Encodes labels using LabelEncoder.
+
+## Preprocessing
+
+Tokenizes text using XLM-RoBERTa tokenizer.
+
+Splits into train/test sets.
+
+## Model Training
+
+Fine-tunes XLMRobertaForSequenceClassification using Hugging Face Trainer.
+
+Uses early stopping and evaluation metrics.
+
+## Evaluation
+
+Generates accuracy, confusion matrix, classification report.
+
+Plots ROC curves and calculates AUC scores.
+
+## Explainability
+
+Uses LIME to explain individual predictions.
+
+## 🚀 Running the Notebook
+Open XFN-MSC.ipynb in Google Colab or Jupyter Notebook.
+
+Install dependencies from the requirements section.
+
+Make sure dataset files are available in the specified paths.
+
+Run cells in order to:
+
+Load data
+
+Train the model
+
+Evaluate results
+
+Visualize LIME explanations
+
+
+
+
+
+
 
 ## ⚙️ Requirements
 
