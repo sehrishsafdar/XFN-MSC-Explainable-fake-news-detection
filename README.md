@@ -43,7 +43,16 @@ likes, shares, user profiles, and sentiments, rendering it exceptionally appropr
 multilingual and context-aware modeling..
 
 ---
+## ⚙️ Requirements
 
+Run the following to install the required dependencies:
+
+```bash
+pip install transformers torch scikit-learn pandas numpy matplotlib seaborn lime textstat spacy nltk empath-client
+python -m spacy download en_core_web_sm
+
+```bash
+`````
 ## Notebook Workflow
 The main notebook: XFN-MSC.ipynb
 ## Setup & Imports
@@ -102,14 +111,5 @@ Visualize LIME explanations
 
 
 
-## ⚙️ Requirements
 
-Run the following to install the required dependencies:
-
-```bash
-pip install transformers torch scikit-learn pandas numpy matplotlib seaborn lime textstat spacy nltk empath-client
-python -m spacy download en_core_web_sm
-
-`````
-`````
  
